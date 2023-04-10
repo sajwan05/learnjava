@@ -39,7 +39,30 @@ class Main{
          * 3.NON PDT have to be declared with "new" keyword but it is NOT COMPULSARY*/
         //String name ="Suraj";
         //System.out.println("name :"+name);
-        String name = "Suraj"
-        String friend ="Aditya"
-        System.out.println("Name is" + name);
+       // String name = "Suraj";
+       // String friend ="Aditya";
+       // System.out.println("Name is" + name);
+
+
+        //String:
+        //Concatenate
+        //charAt()
+        //String name1 = "Lodu";
+        //String name2 = "Joshi";
+        //String name3= name1+ " and " + name2;
+        //System.out.println(name3);
+
+        //charAt()
+        String name="Suraj";
+        String str="Dehradoon";
+        String str1 = str.replace('d','p');
+
+        //System.out.println(str.charAt(3)); //charAt(int ) method
+        //System.out.println(str.length());    //length() method /property
+        //System.out.println(str.indexOf('h')); //indexOf(char); method
+        System.out.println(str1); //replace(char,char);
+        System.out.println(str); // original string will remain same bcz string objects are immutable.
+
+        //Substring
+        System.out.println(str1.substring(5,9));
     }}
