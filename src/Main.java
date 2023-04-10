@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Main{
     public static void main(String[] args) {
         //write your code  here this is comment
@@ -60,9 +62,22 @@ class Main{
         //System.out.println(str.charAt(3)); //charAt(int ) method
         //System.out.println(str.length());    //length() method /property
         //System.out.println(str.indexOf('h')); //indexOf(char); method
-        System.out.println(str1); //replace(char,char);
-        System.out.println(str); // original string will remain same bcz string objects are immutable.
+        //System.out.println(str1); //replace(char,char);
+        //System.out.println(str); // original string will remain same bcz string objects are immutable.
 
         //Substring
-        System.out.println(str1.substring(5,9));
+        //System.out.println(str1.substring(5,9)); // it will include first index but not end index(9)
+
+        //Array
+        //let's say we have to store the marks of a student in few subject we can di it as follows:
+        int maths = 99;
+        int chem=89;
+        int phy=75;
+        //or we could assign value to a data structure known as array
+
+        int[]  marks= new int[3];
+        marks[0]=99;
+        marks[1]=89;
+        marks[2]=75;
+        System.out.println(marks.length);
     }}
